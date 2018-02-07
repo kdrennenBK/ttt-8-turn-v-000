@@ -45,9 +45,9 @@ def turn(board)
 # #   true
 # # # # #   # if it is valid add to board
 # # board(token)
-# # else
+ else
 # # # # #  if it not valid ask user to try again (repeat turn)
-# # turn
+turn
 end
 end
 
