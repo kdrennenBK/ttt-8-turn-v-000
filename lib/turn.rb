@@ -13,7 +13,7 @@ def display_board(board)
   def position_taken?(board, index)
      if board[index] == "X" || board[index] == "O"
        true
-     elses
+     else
        false
      end
   end
