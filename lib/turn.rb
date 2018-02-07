@@ -37,8 +37,8 @@ def turn(board)
   #  input to integer call input_to_index
   input_to_index(user_input)
 #   # check to see if user_input is a valid move
-#  if user_input == valid_move?
-#    puts display_board(board)
+ if valid_move?(user_input) != position_taken
+   puts display_board(board)
 #  elseif user_input != valid_move?
 #  turn(board)
 # #   true
