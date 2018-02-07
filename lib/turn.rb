@@ -39,7 +39,7 @@ def turn(board)
 
 #   # check to see if user_input is a valid move
  if valid_move?(board, index)
-   puts move(board, index)
+   move(board, index)
 # # # # # #   # if it is valid add to board
 # # # board(token)
  else
