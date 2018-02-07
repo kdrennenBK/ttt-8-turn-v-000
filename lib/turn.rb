@@ -38,7 +38,7 @@ def turn(board)
   input_to_index(user_input)
 
 #   # check to see if user_input is a valid move
- if valid_move?(token) != position_taken
+ if valid_move?(input_to_index) != position_taken
    puts display_board(board)
 #  elseif user_input != valid_move?
 #  turn(board)
