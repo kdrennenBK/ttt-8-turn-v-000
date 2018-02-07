@@ -18,8 +18,8 @@ def display_board(board)
      end
   end
 
-  def move(board, user_input, token = "X")
-    board[user_input] = token
+  def move(board, idex, token = "X")
+    board[index] = token
   end
 
 def valid_move?(board, index)
