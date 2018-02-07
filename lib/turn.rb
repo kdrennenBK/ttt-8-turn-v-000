@@ -43,7 +43,7 @@ def turn(board)
 # else
 # # # #  if it not valid ask user to try again (repeat turn)
 # turn
-# end
+end
 end
 
 # def capture_puts{ display_board(board) }
