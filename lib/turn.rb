@@ -36,9 +36,9 @@ def turn(board)
   input_to_index(user_input)
   # check to see if user_input is a valid move
  if user_input == valid_move?
-   puts display_board
+   puts display_board(board)
  elseif user_input != valid_move?
- turn
+ turn(board)
 #   true
 # # # #   # if it is valid add to board
 # board(token)
