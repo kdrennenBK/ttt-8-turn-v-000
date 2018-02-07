@@ -38,7 +38,7 @@ def turn(board)
    move(board, index)
    display_board(board)
 # if it is valid add to board
- elseif
+ else
 #if it not valid ask user to try again (repeat turn)
     display_board(board)
     puts "Please enter 1-9:"
