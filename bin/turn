@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 # user_input = gets.strip
 
 display(board)
-# turn(board)
+turn(board)
