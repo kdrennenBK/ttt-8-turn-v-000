@@ -41,6 +41,7 @@ def turn(board)
 # if it is valid add to board
  else
 #if it not valid ask user to try again (repeat turn)
+puts "Please enter 1-9:"
 turn(board)
 end
 end
