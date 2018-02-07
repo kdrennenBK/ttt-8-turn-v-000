@@ -30,18 +30,18 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   #gets user_input
-  user_input = gets.strip
+  input = gets.strip
   # convert user input to integer call input_to_index
-  index = input_to_index(user_input)
+  index = input_to_index(input)
 # check to see if user_input is a valid move
  if valid_move?(board, index)
    move(board, index)
 # if it is valid add to board
  else
 #if it not valid ask user to try again (repeat turn)
-puts "Please enter 1-9:"
-turn(board)
-end
+    puts "Please enter 1-9:"
+    turn(board)
+  end
 end
 
 # def capture_puts{ display_board(board) }
