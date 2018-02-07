@@ -33,17 +33,14 @@ def turn(board)
   puts "Please enter 1-9:"
   #gets user_input
   user_input = gets.strip
-  # convert user
-  #  input to integer call input_to_index
+  # convert user input to integer call input_to_index
   index = input_to_index(user_input)
-
-#   # check to see if user_input is a valid move
+# check to see if user_input is a valid move
  if valid_move?(board, index)
    move(board, index)
-# # # # # #   # if it is valid add to board
-# # # board(token)
+# if it is valid add to board
  else
-# # # # # #  if it not valid ask user to try again (repeat turn)
+#if it not valid ask user to try again (repeat turn)
 turn(board)
 end
 end
