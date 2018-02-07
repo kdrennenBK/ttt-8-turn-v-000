@@ -35,7 +35,7 @@ def turn(board)
   user_input = gets
   # convert user
   #  input to integer call input_to_index
-  index = user_input
+  index = input_to_index
 
 #   # check to see if user_input is a valid move
  if valid_move?(board, index)
