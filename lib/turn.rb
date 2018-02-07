@@ -34,19 +34,19 @@ def turn(board)
   user_input = gets
   # convert user
   #  input to integer call input_to_index
-  input_to_index
-  # check to see if user_input is a valid move
- if user_input == valid_move?
-   puts display_board(board)
- elseif user_input != valid_move?
- turn(board)
-#   true
-# # # #   # if it is valid add to board
-# board(token)
-# else
-# # # #  if it not valid ask user to try again (repeat turn)
-# turn
-end
+#   input_to_index
+#   # check to see if user_input is a valid move
+#  if user_input == valid_move?
+#    puts display_board(board)
+#  elseif user_input != valid_move?
+#  turn(board)
+# #   true
+# # # # #   # if it is valid add to board
+# # board(token)
+# # else
+# # # # #  if it not valid ask user to try again (repeat turn)
+# # turn
+# end
 end
 
 # def capture_puts{ display_board(board) }
