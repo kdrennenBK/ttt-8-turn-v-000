@@ -36,6 +36,7 @@ def turn(board)
 # check to see if user_input is a valid move
  if valid_move?(board, index)
    move(board, index)
+   display_board(board)
 # if it is valid add to board
  else
 #if it not valid ask user to try again (repeat turn)
