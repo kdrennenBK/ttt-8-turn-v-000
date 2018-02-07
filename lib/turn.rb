@@ -13,7 +13,7 @@ def display_board(board)
   def position_taken?(board, index)
      if board[index] == "X" || board[index] == "O"
        true
-     else
+     elses
        false
      end
   end
@@ -28,7 +28,6 @@ end
 
 
 def turn(board)
-
   puts "Please enter 1-9:"
   #gets user_input
   user_input = gets.strip
