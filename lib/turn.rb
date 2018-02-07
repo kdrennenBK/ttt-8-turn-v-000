@@ -32,10 +32,10 @@ def turn(board)
 
   puts "Please enter 1-9:"
   #gets user_input
-  user_input = gets
+  input = gets.strip
   # convert user
   #  input to integer call input_to_index
-  index = input_to_index
+  index = input
 
 #   # check to see if user_input is a valid move
  if valid_move?(board, index)
